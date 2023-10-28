@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the title of the web app
-st.title("Simple Streamlit Example")
+st.title("Waste Watch")
 
 # Add a button to the web app
 if st.button("Click me"):
