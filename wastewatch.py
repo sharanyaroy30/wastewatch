@@ -1,34 +1,52 @@
 import streamlit as st
 
+# Set page configuration
+st.set_page_config(
+    page_title="Waste Watch - AI for Waste Classification",
+    page_icon="🗑️",
+    layout="wide"
+)
+
+# Create a custom CSS style for the sidebar
+sidebar_style = """
+    background-color: #1E5D4A;
+    color: #FFFFFF;
+    padding: 20px;
+    """
+st.markdown(
+    f'<style>{sidebar_style}</style>',
+    unsafe_allow_html=True
+)
+
 # Set the title and description of the web app
 st.title("Waste Watch - AI for Waste Classification")
 st.markdown("Welcome to Waste Watch, an AI model for waste sorting and management.")
 
-# Create a navigation menu
+# Create a navigation menu with custom styling
 page = st.sidebar.selectbox(
     "Select a page",
     ("Overview", "Interactive Demo", "Waste Management", "About Us")
 )
 
-# Define the function for the "Overview" page
+# Define the function for the "Overview" page with custom styling
 def overview_page():
     st.header("Project Overview")
     st.write("Waste Watch is an innovative AI model that helps automate the process of waste classification and sorting. It is designed to assist waste management and recycling facilities in identifying and segregating various types of waste materials efficiently. Our goal is to contribute to environmental sustainability and make waste management more efficient.")
     # Add more project overview details here
 
-# Define the function for the "Interactive Demo" page
+# Define the function for the "Interactive Demo" page with custom styling
 def interactive_demo():
     st.header("Interactive Demo")
     st.write("Try out our interactive demo to see how the AI model can classify waste materials. Upload an image, and the AI will provide you with the classification results.")
     # Add the interactive demo code here
 
-# Define the function for the "Waste Management" page
+# Define the function for the "Waste Management" page with custom styling
 def waste_management():
     st.header("Waste Management")
     st.write("Efficient waste management is crucial for a sustainable future. Waste Watch helps waste management facilities automate the sorting process, reducing errors and improving recycling rates.")
     # Add more information about waste management here
 
-# Define the function for the "About Us" page
+# Define the function for the "About Us" page with custom styling
 def about_us():
     st.header("About Us")
     st.write("Waste Watch is a project developed for the NYAS Challenge. Our team is passionate about environmental sustainability and using AI for positive change. We are excited to contribute to the waste management and recycling industry.")
