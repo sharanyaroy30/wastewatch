@@ -28,8 +28,6 @@ Waste Watch website offers a range of features to help you understand and intera
 
 - **Project Documentation**: Access detailed documentation about the AI model, its development, and the technology behind it.
 
-- **Community Engagement**: Join the discussion about waste management, share your ideas, and connect with individuals and organizations passionate about environmental sustainability.
-
 - **Feedback and Support**: Report issues, provide feedback, or ask questions related to the AI model and the website.
 
 ## Getting Started
@@ -46,7 +44,7 @@ To get started with Waste Watch, follow these steps:
 
 ## Demo
 
-For a quick demonstration of the Waste Watch website and its AI model, you can watch the following video tutorial: [Waste Watch Demo](https://www.youtube.com/watch?v=yourvideo).
+For a quick demonstration of the Waste Watch website and its AI model, you can watch the following video tutorial: [Waste Watch Demo](https://www.youtube.com).
 
 ## Contributing
 
