@@ -7,12 +7,30 @@ st.set_page_config(
     layout="wide"
 )
 
+
+# Define custom CSS for the pastel blue background
+custom_css = """
+<style>
+body {
+    background-color: #b2d8d8; /* Pastel Blue */
+}
+</style>
+"""
+
+# Use st.markdown to apply the custom CSS
+st.markdown(custom_css, unsafe_allow_html=True)
+
+# Your Streamlit app content goes here
+st.title("Pastel Blue Background")
+
+# Add more content here
+
 <<<<<<< HEAD
 =======
 # Create a custom CSS style for the sidebar
 sidebar_style = """
-    background-color: ##0000FF;
-    color: ##0000FF;
+    background-color: #1E5D4A;
+    color: #FFFFFF;
     padding: 20px;
     """
 st.markdown(
