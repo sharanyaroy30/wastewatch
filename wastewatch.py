@@ -25,7 +25,7 @@ st.title("Pastel Blue Background")
 
 # Add more content here
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 =======
 # Create a custom CSS style for the sidebar
 sidebar_style = """
