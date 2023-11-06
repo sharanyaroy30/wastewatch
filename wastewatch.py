@@ -8,6 +8,24 @@ st.set_page_config(
 )
 
 
+# Define custom CSS for the pastel blue background
+custom_css = """
+<style>
+body {
+    background-color: #b2d8d8; /* Pastel Blue */
+}
+</style>
+"""
+
+# Use st.markdown to apply the custom CSS
+st.markdown(custom_css, unsafe_allow_html=True)
+
+# Your Streamlit app content goes here
+st.title("Pastel Blue Background")
+
+# Add more content here
+
+
 def overview_page():
     st.title("Project Overview")
     st.write("This is the overview page for your project.")
