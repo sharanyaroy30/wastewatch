@@ -7,21 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-<<<<<<< HEAD
-=======
-# Create a custom CSS style for the sidebar
-sidebar_style = """
-    background-color: #1E5D4A;
-    color: #FFFFFF;
-    padding: 20px;
-    """
-st.markdown(
-    f'<style>{sidebar_style}</style>',
-    unsafe_allow_html=True
-)
->>>>>>> 966bf559937f7a1d62b11877e506d8601e5f8d82
 
-<<<<<<< HEAD
 def overview_page():
     st.title("Project Overview")
     st.write("This is the overview page for your project.")
@@ -34,13 +20,6 @@ def other_page():
     # Add content for this page here
 
 # Create a navigation menu
-=======
-# Set the title and description of the web app
-st.title("Waste Watch - AI for Waste Classification")
-st.markdown("Welcome to Waste Watch, an AI model for waste sorting and management.")
-
-# Create a navigation menu with custom styling
->>>>>>> 966bf559937f7a1d62b11877e506d8601e5f8d82
 page = st.sidebar.selectbox(
     "Select a page",
     ("Overview", "Interactive Demo", "Waste Management", "About Us")
